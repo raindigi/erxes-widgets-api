@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.13.5
+version: v1.14.1
 # ignores vulnerabilities until expiry date; change duration by modifying expiry date
 ignore:
   'npm:chownr:20180731':
@@ -33,4 +33,12 @@ ignore:
     - '@axelspringer/graphql-google-pubsub > @google-cloud/pubsub > lodash.merge':
         reason: None given
         expires: '2019-08-08T03:59:06.514Z'
-patch: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - apollo-server-express > apollo-server-core > lodash:
+        patched: '2020-05-01T07:33:24.135Z'
+    - mongoose > async > lodash:
+        patched: '2020-05-01T07:33:24.135Z'
+    - apollo-server-express > apollo-server-core > apollo-engine-reporting > lodash:
+        patched: '2020-05-01T07:33:24.135Z'
