@@ -47,7 +47,7 @@
     "ioredis": "^4.9.5",
     "meteor-random": "0.0.3",
     "mongoose": "^5.2.16",
-    "nodemailer": "^4.0.1",
+    "nodemailer": "^6.6.1",
     "q": "^1.5.1",
     "underscore": "^1.8.3",
     "validator": "^10.9.0"
