@@ -34,8 +34,8 @@
     ]
   },
   "dependencies": {
-    "@axelspringer/graphql-google-pubsub": "^1.2.1",
-    "@google-cloud/pubsub": "^0.29.1",
+    "@axelspringer/graphql-google-pubsub": "^2.0.0",
+    "@google-cloud/pubsub": "^3.0.0",
     "apollo-server-express": "^2.3.1",
     "body-parser": "^1.17.1",
     "cors": "^2.8.1",
@@ -44,9 +44,9 @@
     "git-repo-info": "^2.1.0",
     "graphql": "^14.0.2",
     "graphql-tools": "^4.0.3",
-    "ioredis": "^4.9.5",
+    "ioredis": "^4.10.1",
     "meteor-random": "0.0.3",
-    "mongoose": "^5.2.16",
+    "mongoose": "^5.7.3",
     "nodemailer": "^4.0.1",
     "q": "^1.5.1",
     "underscore": "^1.8.3",
